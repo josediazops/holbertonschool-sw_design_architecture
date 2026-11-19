@@ -27,10 +27,20 @@ The objective is to implement a new observer and subscribe it to a running notif
 ## File
 
 | File | Description |
-|`1-observer.py` | Observer pattern extended with an SMS subcriber for breaking news. |
+| `1-observer.py` | Observer pattern extended with an SMS subcriber for breaking news. |
 
 ## How to run
 
 ```bash
 python3 1-observer.py
 ```
+
+
+##  Decorator - Adding a new wrapper
+
+The objective is to add a new decorator that extends `Beverage` by wrapping it, composing correctly with existing decorators without modifying any existing class.
+
+## File
+
+| File | Description |
+| `2-decorator.py` | Decorator pattern extended with a new beverage wrapper for the coffeeshop. |
